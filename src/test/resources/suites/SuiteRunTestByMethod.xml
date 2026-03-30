@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteRunByMethod" verbose="1">
+    <test name="FirstTest">
+        <classes>
+            <class name="com.huyphan.DemoTestNG">
+            </class>
+
+        </classes>
+    </test>
+</suite>

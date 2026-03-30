@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleniumMavenTestNG(failed)">
+    <classes>
+      <class name="com.huyphan.Bai10_Annotations.DemoAnnotation">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="afterBaseMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeBaseClass"/>
+          <include name="afterBaseClass"/>
+          <include name="afterTest"/>
+          <include name="testTwoMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeBaseMethod"/>
+        </methods>
+      </class> <!-- com.huyphan.Bai10_Annotations.DemoAnnotation -->
+    </classes>
+  </test> <!-- SeleniumMavenTestNG(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
